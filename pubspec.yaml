@@ -10,11 +10,19 @@ dependencies:
   flutter:
     sdk: flutter
   google_fonts: ^6.2.1
-  
+  path: ^1.9.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: ./assets/icon/instagram.png
+  android_adaptative_icon_background: "#FFFFFF"
 
 flutter:
   uses-material-design: true
@@ -22,4 +30,6 @@ flutter:
   fonts:
     - family: Goodies
       fonts: 
-        - asset: ./fonts/Goodies.otf
+        - asset: ./assets/fonts/Goodies.otf
+  assets:
+    - ./assets/images/

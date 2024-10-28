@@ -16,7 +16,9 @@ class YournalContainer extends StatelessWidget {
           colors:<Color>[Colors.black, Color.fromARGB(46, 12, 12, 12)] 
         )
       ),
-      child: child,
+      child: Center(
+        child: child,
+      ),
     );
   }
 }
